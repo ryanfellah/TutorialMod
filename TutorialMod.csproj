@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\tModLoader.targets" />
+  <PropertyGroup>
+    <AssemblyName>TutorialMod</AssemblyName>
+    <TargetFramework>net6.0</TargetFramework>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="tModLoader.CodeAssist" Version="0.1.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Properties\Content\" />
+    <None Remove="Properties\Common\" />
+    <None Remove="Properties\Localization \" />
+    <None Remove="Properties\Assets\" />
+    <None Remove="Properties\Assets\Music\" />
+    <None Remove="Properties\Assets\Sounds\" />
+    <None Remove="Properties\Assets\Textures\" />
+    <None Remove="Properties\Content\Items\" />
+    <None Remove="Properties\Content\Items\Weapons\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\Content\" />
+    <Folder Include="Properties\Common\" />
+    <Folder Include="Properties\Localization \" />
+    <Folder Include="Properties\Assets\" />
+    <Folder Include="Properties\Assets\Music\" />
+    <Folder Include="Properties\Assets\Sounds\" />
+    <Folder Include="Properties\Assets\Textures\" />
+    <Folder Include="Properties\Content\Items\" />
+    <Folder Include="Properties\Content\Items\Weapons\" />
+  </ItemGroup>
+</Project>

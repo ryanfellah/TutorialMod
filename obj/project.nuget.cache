@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HtE/heivH1mwjElWlQfWHg4Uf4EbIk6pysK8FHH+G7yfxYJ2RnqDid86Aj2IUez3a/3L5r6GeKb6BO1D2ES5vw==",
+  "success": true,
+  "projectFilePath": "/Users/ryanfellah/Library/Application Support/Terraria/tModLoader/ModSources/TutorialMod/TutorialMod.csproj",
+  "expectedPackageFiles": [
+    "/Users/ryanfellah/.nuget/packages/tmodloader.codeassist/0.1.5/tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
